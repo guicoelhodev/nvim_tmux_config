@@ -5,8 +5,7 @@
 ### This project use nvChad as editor, add all dependencies first, see here: 
 
 
-<a href='https://nvchad.com/docs/quickstart/install' target='_blank'>Nv chad intall</a>
-
+<a href='https://nvchad.com/docs/quickstart/install' target='_blank'>Nv chad install</a>
 
 Use this command to config TSConfig LSP
 
