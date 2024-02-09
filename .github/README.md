@@ -20,6 +20,7 @@ After that, you can use ```:CocInstall or :CocRestart```
 ```
 ~/.tmux.conf
 
+
 bind-key : command-prompt
 bind-key r refresh-client
 bind-key L clear-history
@@ -50,6 +51,11 @@ bind-key R source-file ~/.tmux.conf \; display-message "tmux.conf reloaded."
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 run '~/.tmux/plugins/tpm/tpm'
+
+# mouse behavior
+setw -g mouse on
+bind-key [ copy-mode
+bind-key ] paste-buffer
 
 ```
 
