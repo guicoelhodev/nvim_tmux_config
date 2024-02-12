@@ -9,6 +9,8 @@
 
 Use this command to config TSConfig LSP
 
+``` :call coc#util#install() ```
+
 ```:CocInstall coc-json coc-tsserver```
 
 After that, you can use ```:CocInstall or :CocRestart```
