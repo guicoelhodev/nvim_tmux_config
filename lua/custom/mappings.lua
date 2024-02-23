@@ -85,7 +85,7 @@ M.personalized = {
       "navigates to term 4"
     },
 
-    ["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "toggle explorer tree"},
+    --["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "toggle explorer tree"},
     --tabs buffers
      ["tl"] = {
       function()
