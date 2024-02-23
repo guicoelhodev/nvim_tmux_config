@@ -13,3 +13,5 @@ augroup END
 ]]
 --enable relative number 
 vim.opt.relativenumber = true
+-- enable clipboard on linux - Install xclip to work 
+vim.opt.clipboard:append("unnamedplus")
