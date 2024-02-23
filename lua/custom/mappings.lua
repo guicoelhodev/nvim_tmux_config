@@ -32,11 +32,12 @@ M.personalized = {
     ["Y"] = {"yy", "copy line"},
 
     -- close buffer after select with <leader> + d
-    ["<leader>d"] = {
-      function()
-
+    ["<leader>q"] = {
+     function()
         vim.cmd('wincmd j')
-        vim.api.nvim_win_close(0, false)
+
+        local win = vim.api.nvim_get_current_win()
+        vim.api.nvim_win_close(win, false)
       end,
       "close bottom terminal after use <leader>d"
     },
