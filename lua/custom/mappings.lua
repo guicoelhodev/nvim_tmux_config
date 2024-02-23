@@ -30,6 +30,16 @@ M.personalized = {
     ["<leader>fi"] = {"<leader>fz", "search in current buffer"},
 
     ["Y"] = {"yy", "copy line"},
+
+    -- close buffer after select with <leader> + d
+    ["<leader>d"] = {
+      function()
+
+        vim.cmd('wincmd j')
+        vim.api.nvim_win_close(0, false)
+      end,
+      "close bottom terminal after use <leader>d"
+    },
     --harppon maps 
     ["we"] = {
       function()
