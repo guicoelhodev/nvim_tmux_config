@@ -281,7 +281,7 @@ local default_plugins = {
       end
     end,
   },
-
+  
   -- Only load whichkey after all the gui
   {
     "folke/which-key.nvim",
