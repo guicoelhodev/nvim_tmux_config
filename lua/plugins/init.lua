@@ -33,6 +33,11 @@ local custom_nvterm_opts = {
 -- 
 local default_plugins = {
 
+  -- browser nvim file
+  {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  },
   "nvim-lua/plenary.nvim",
 
   -- nvchad plugins

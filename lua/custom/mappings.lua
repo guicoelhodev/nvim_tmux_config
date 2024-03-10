@@ -31,6 +31,9 @@ M.personalized = {
 
     ["Y"] = {"yy", "copy line"},
 
+    -- add find browser 
+    ["ff"] = {":Telescope file_browser path=%:p:h select_buffer=true<CR>", "Open browser file extension"},
+    ["fw"] = { "<cmd> Telescope live_grep <CR>", "Find by word (telescope)" },
     -- close buffer after select with <leader> + d
     ["<leader>q"] = {
      function()
