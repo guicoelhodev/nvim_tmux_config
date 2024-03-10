@@ -267,7 +267,7 @@ M.nvimtree = {
     ["<leader>ep"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
 
     -- focus
-     ["<C-e>p"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
+     ["<leader>ef"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
   },
 }
 
