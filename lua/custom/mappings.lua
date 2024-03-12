@@ -17,17 +17,17 @@ M.personalized = {
     ["<leader>l"] = { "<C-w>l", "Window right" },
     ["<leader>mj"] = { "<C-w>j", "Window down" },
     ["<leader>mk"] = { "<C-w>k", "Window up" },
+
     --center 
     ["<leader>c"] = {":Centerpad <CR>", "center panel"},
     ["<leader>C"] = {":Centerpad", "center panel and set size"},
     ["<leader>8c"] = {":Centerpad 80 80 <CR>", "center panel 80 80"},
     ["<leader>1c"] = {":Centerpad 100 100 <CR>", "center panel 100 100"},
     ["<leader>5c"] = {":Centerpad 50 50 <CR>", "center panel 50 50"},
+
     --resize buffer
     ["<leader><left>"] = {"<c-w><", "recise left"},
     ["<leader><right>"] = {"<c-w>>", "resize right"},
-    --seach 
-    ["<leader>fi"] = {"<leader>fz", "search in current buffer"},
 
     ["Y"] = {"yy", "copy line"},
 
@@ -44,6 +44,9 @@ M.personalized = {
       end,
       "close bottom terminal after use <leader>d"
     },
+    -- replace selected word
+    ["S"] = {":%s/\\C"},
+    ["C"] = {"caw"},
     --harppon maps 
     ["we"] = {
       function()
